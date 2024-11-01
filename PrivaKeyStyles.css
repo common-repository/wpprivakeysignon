@@ -1,0 +1,59 @@
+
+/**
+ *
+ *	Copyright Probaris Technologies, Inc. 2015
+ *	
+ *	This file is part of WPPrivaKeySignOn.
+ *	WPPrivaKeySignOn is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU General Public License as published by
+ *	the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	WPPrivaKeySignOn is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU General Public License for more details.
+ *
+ *	You should have received a copy of the GNU General Public License
+ *	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+*/
+
+
+.privakey-group { color:#777 !important; display: table; width: 100%; }
+.privakey-item { display: table-cell; }
+.privakey-text { white-space: nowrap; width: 1%; padding: 0 10px; font-size: 16px}
+.privakey-line { border-bottom: 1px solid #777; position: relative; top: -.5em; }
+
+.button-privakey
+{
+
+	-webkit-box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08);
+	vertical-align: top;
+	color:white !important;
+	background-color:#fa8211 !important;
+	background-image:none !important;
+	border: 0px !important;
+	font-size:14px !important;
+	font-weight:bold !important;
+	text-shadow:0 0px 0 #fff!important;
+	-webkit-box-shadow: inset 0 0px 0 #fff,0 1px 0 rgba(0,0,0,.08) !important;
+	box-shadow: inset 0 0px 0 #fff,0 1px 0 rgba(0,0,0,.08) !important;
+}
+
+.wp-core-ui .button[disabled].button-privakey
+{
+	.button-privakey;
+	color:white !important;
+	background-color:#606060 !important;
+	background-image:none !important;
+	text-shadow:0 0px 0 #fff!important;
+}
+#TB_window {
+	min-height:150px !important;
+	max-height:150px !important;
+	min-width:650px !important;
+	max-width:650px !important;
+}
+
